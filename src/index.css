@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  
+  --color-brand-bg: #F5F5F7;
+  --color-brand-surface: #FFFFFF;
+  --color-brand-text: #1D1D1F;
+  --color-brand-muted: #86868B;
+  --color-brand-border: #D2D2D7;
+  --color-brand-accent: #000000;
+}
+
+@layer base {
+  body {
+    @apply font-sans bg-brand-bg text-brand-text antialiased;
+  }
+  
+  h1, h2, h3, h4 {
+    @apply font-semibold tracking-tight text-brand-text;
+  }
+}
+
+@layer components {
+  .section-container {
+    @apply max-w-[1200px] mx-auto px-6 py-24;
+  }
+  
+  .card-premium {
+    @apply bg-brand-surface rounded-[24px] border border-brand-border/50 shadow-sm hover:shadow-md transition-all duration-300;
+  }
+  
+  .btn-primary {
+    @apply px-8 py-3 bg-brand-text text-white rounded-full font-semibold hover:bg-zinc-800 transition-all active:scale-95;
+  }
+  
+  .btn-secondary {
+    @apply px-8 py-3 bg-white text-brand-text border border-brand-border rounded-full font-semibold hover:bg-brand-bg transition-all active:scale-95;
+  }
+}
