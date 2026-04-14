@@ -11,7 +11,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
-  title: "Variable DC Power Supply Solutions | 3Atlanta",
+  title: "Industrial Variable DC Power Supply Solutions | 3Atlanta",
   description:
     "Industrial variable DC power supply and variable power supply solutions for high-voltage, programmable, and precision testing workflows.",
   keywords: [
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "Variable DC Power Supply Solutions | 3Atlanta",
+    title: "Industrial Variable DC Power Supply Solutions | 3Atlanta",
     description:
       "Industrial variable DC power supply and variable power supply solutions for high-voltage, programmable, and precision testing workflows.",
     url: "/",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Variable DC Power Supply Solutions | 3Atlanta",
+    title: "Industrial Variable DC Power Supply Solutions | 3Atlanta",
     description:
       "Industrial variable DC power supply and variable power supply solutions for high-voltage, programmable, and precision testing workflows.",
     images: ["/eTM-3050U.png"],
@@ -74,7 +74,7 @@ export default function HomePage() {
                 Industrial Programmable DC Power Specialist
               </span>
               <h1 className="text-5xl md:text-7xl font-bold mb-8 tracking-tight">
-                Variable DC Power Supply <br className="hidden md:block" /> Solutions.
+                Variable DC Power Supply <br className="hidden md:block" /> for Mission-Critical Testing
               </h1>
               <p className="text-xl text-brand-muted mb-10 leading-relaxed max-w-2xl mx-auto">
                 3Atlanta provides specialized technical support and distribution for <strong>eTommens</strong> industrial systems.
