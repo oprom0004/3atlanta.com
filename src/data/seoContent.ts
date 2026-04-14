@@ -26,7 +26,7 @@ export const voltagePages: SEOPageContent[] = [
   {
     title: "800V Variable DC Power Supply",
     slug: "800v-variable-dc-power-supply",
-    description: "The industry standard for next-generation 800V EV architecture testing. These high-voltage systems provide the critical headroom and transient response required for powertrain validation and fast-charging simulation.",
+    description: "The industry standard for next-generation 800V EV architecture testing, with high-voltage headroom and transient response for powertrain validation.",
     features: ["800V High-Voltage Architecture", "Programmable Slew Rate Control", "Active Power Factor Correction", "Remote Interface Control"],
     applications: ["EV Battery Management Systems (BMS)", "Photovoltaic Inverter Characterization", "High-Voltage Semiconductor Stress Testing"],
     technicalDetails: "As the automotive industry shifts toward 800V platforms, having a power source that can simulate real-world high-voltage transients is essential. Our 800V series is specifically curated for labs requiring high-duty cycle reliability and precision automation.",
@@ -45,7 +45,7 @@ export const voltagePages: SEOPageContent[] = [
   {
     title: "600V Variable DC Power Supply",
     slug: "600v-variable-dc-power-supply",
-    description: "High-stability 600V solutions optimized for industrial motor drives and plasma research. Engineered to deliver consistent power in electrically noisy manufacturing environments.",
+    description: "High-stability 600V solutions optimized for industrial motor drives and plasma research in electrically noisy manufacturing environments.",
     features: ["Low Ripple & Noise (<0.1% RMS)", "Isolated Analog & Digital Control", "Built-in OVP/OCP/OTP Safeguards", "Standard 19-inch Rack Mountable"],
     applications: ["Industrial Motor Drive Testing", "Plasma Etching Research", "High-Voltage Component Aging"],
     technicalDetails: "For plasma and motor drive applications, noise isolation is paramount. These 600V units feature enhanced shielding and isolated control interfaces to ensure measurement integrity even under heavy inductive loads.",
@@ -54,7 +54,7 @@ export const voltagePages: SEOPageContent[] = [
   {
     title: "500V Variable DC Power Supply",
     slug: "500v-variable-dc-power-supply",
-    description: "Precision 500V DC sources designed for aerospace avionics and dielectric analysis. Balances high-voltage capability with the fine-grain control needed for sensitive R&D.",
+    description: "Precision 500V DC sources for aerospace avionics and dielectric analysis, balancing high-voltage capability with fine-grain control.",
     features: ["Precise Voltage/Current Regulation", "Remote Sense Compensation", "SCPI/Modbus Protocol Support", "High Efficiency (>92%)"],
     applications: ["Aerospace Avionics Verification", "Dielectric Breakdown Testing", "Advanced Material Science Research"],
     technicalDetails: "Aerospace testing demands absolute repeatability. The 500V series provides the stable regulation required for avionics bus simulation and long-term dielectric stress testing in advanced research environments.",
@@ -234,9 +234,9 @@ export const intentPages: SEOPageContent[] = [
     externalUrl: "https://variabledcpowersupply.com/"
   },
   {
-    title: "How to Use a Programmable Variable DC Power Supply?",
+    title: "How to Use a Programmable DC Power Supply",
     slug: "how-to-use-variable-dc-power-supply",
-    description: "A comprehensive technical guide on operating and automating industrial programmable variable DC power supplies. Learn how to leverage SCPI commands and remote interfaces for efficient testing.",
+    description: "A technical guide to operating and automating programmable DC power supplies using SCPI commands and remote interfaces.",
     features: ["Remote Interface Setup (USB/LAN/RS232)", "SCPI Programming & Automation Basics", "Mastering Sequence & List Modes", "Safety Calibration & Protection Limits"],
     applications: ["Automated Test Engineering (ATE)", "Complex Workflow Automation", "Remote Laboratory Management"],
     technicalDetails: "Mastering the automation interfaces of a programmable DC power supply can reduce test cycles by up to 70%. 3Atlanta provides specialized technical support to help you integrate eTommens systems into your Python, LabVIEW, or C# environments using standard SCPI protocols.",
@@ -250,7 +250,7 @@ export const intentPages: SEOPageContent[] = [
   {
     title: "Where to Buy Variable DC Power Supplies?",
     slug: "where-to-buy-variable-dc-power-supply",
-    description: "Looking for a reliable source? This procurement guide helps you evaluate variable DC power supply vendors and why choosing a specialized distributor like 3Atlanta is critical for industrial success.",
+    description: "A procurement guide for evaluating variable DC power supply vendors and choosing specialized industrial distribution support.",
     features: ["Evaluating Authorized Distributors", "Technical Support & Warranty Verification", "Global Logistics & Compliance Standards", "Total Cost of Ownership (TCO) Analysis"],
     applications: ["Strategic Industrial Sourcing", "Government & Research Procurement", "Large-Scale Lab Budgeting"],
     technicalDetails: "Buying from a general retailer often leaves you without technical backup. 3Atlanta is a specialized distributor for eTommens, ensuring you get factory-direct pricing combined with expert-level technical support and local availability.",

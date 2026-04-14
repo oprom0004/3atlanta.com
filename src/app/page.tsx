@@ -51,9 +51,20 @@ export default function HomePage() {
   const targetUrl = "https://variabledcpowersupply.com";
   const skuUrl =
     "https://variabledcpowersupply.com/etm-3050u-3u-programmable-dc-power-supply-30v-50a-with-4-digits-led-display-output-switch-control-low-noise-intelligent-cooling-fan/";
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://3atlanta.com";
+  const organizationJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "3Atlanta",
+    url: siteUrl,
+  };
 
   return (
     <div className="min-h-screen flex flex-col selection:bg-zinc-200">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
+      />
       <Header />
       <main className="flex-grow">
         <section className="relative bg-white overflow-hidden">
@@ -179,6 +190,14 @@ export default function HomePage() {
                 <Link href="/high-current-variable-dc-power-supply" className="p-8 bg-zinc-50 rounded-[24px] border border-brand-border/50 hover:bg-zinc-100 transition-colors block">
                   <h4 className="font-bold mb-4">High Current Output</h4>
                   <p className="text-sm text-brand-muted">Specialized units for plating and high-current component testing.</p>
+                </Link>
+                <Link href="/high-power-variable-dc-power-supply" className="p-8 bg-zinc-50 rounded-[24px] border border-brand-border/50 hover:bg-zinc-100 transition-colors block">
+                  <h4 className="font-bold mb-4">High Power Systems</h4>
+                  <p className="text-sm text-brand-muted">Kilowatt-scale DC platforms for large load and endurance validation.</p>
+                </Link>
+                <Link href="/variable-dc-power-supply-price" className="p-8 bg-zinc-50 rounded-[24px] border border-brand-border/50 hover:bg-zinc-100 transition-colors block">
+                  <h4 className="font-bold mb-4">Price Guide</h4>
+                  <p className="text-sm text-brand-muted">Compare cost drivers, power classes, and procurement considerations.</p>
                 </Link>
               </div>
             </div>
