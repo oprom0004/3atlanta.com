@@ -73,8 +73,8 @@ export default function HomePage() {
               <span className="inline-block px-4 py-1 rounded-full bg-zinc-100 text-[11px] font-bold uppercase tracking-wider text-brand-muted mb-6">
                 Industrial Programmable DC Power Specialist
               </span>
-              <h1 className="text-5xl md:text-7xl font-bold mb-8 tracking-tight">
-                Variable DC Power Supply <br className="hidden md:block" /> for Mission-Critical Testing
+              <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-10 tracking-tight leading-[1.08]">
+                Variable DC Power Supply <br className="hidden md:block" /> for Mission Critical Testing
               </h1>
               <p className="text-xl text-brand-muted mb-10 leading-relaxed max-w-2xl mx-auto">
                 3Atlanta provides specialized technical support and distribution for <strong>eTommens</strong> industrial systems.
