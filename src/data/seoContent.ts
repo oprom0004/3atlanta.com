@@ -262,15 +262,15 @@ export const intentPages: SEOPageContent[] = [
     ]
   },
   {
-    title: "Best Variable DC Power Supplies 2026",
+    title: "Best Variable DC Power Supplies",
     slug: "best-variable-dc-power-supply",
-    description: "Our expert review of the top-rated variable DC power supplies for 2026. We rank the best units based on precision, power density, and long-term industrial reliability.",
-    features: ["2026 Performance Benchmarks", "MTBF & Reliability Ratings", "High-Density Feature Comparisons", "Industry Expert & Engineer Picks"],
+    description: "Our expert review of top-rated variable DC power supplies. We rank the best units based on precision, power density, and long-term industrial reliability.",
+    features: ["Performance Benchmarks", "MTBF & Reliability Ratings", "High-Density Feature Comparisons", "Industry Expert & Engineer Picks"],
     applications: ["Next-Gen Technology Assessment", "Critical Procurement Research", "Laboratory Infrastructure Upgrades"],
-    technicalDetails: "In 2026, the trend is toward higher power density and smarter digital interfaces. The eTommens ETM series, distributed by 3Atlanta, remains the top pick for its exceptional noise performance and robust SCPI implementation, outperforming competitors in high-duty cycle environments.",
+    technicalDetails: "The trend is toward higher power density and smarter digital interfaces. The eTommens ETM series, distributed by 3Atlanta, remains a top pick for its exceptional noise performance and robust SCPI implementation in high-duty cycle environments.",
     externalUrl: "https://variabledcpowersupply.com/",
     faqs: [
-      { question: "What makes a power supply 'Best' for 2026?", answer: "Key factors include high power density, low ripple noise, and robust digital integration for automated testing." },
+      { question: "What makes a power supply 'best'?", answer: "Key factors include high power density, low ripple noise, and robust digital integration for automated testing." },
       { question: "Is the ETM series suitable for 24/7 operation?", answer: "Yes, the ETM series is engineered for continuous industrial use with advanced thermal management." },
       { question: "How does eTommens compare to legacy brands?", answer: "eTommens offers comparable precision and reliability at a significantly better price-to-performance ratio, backed by modern digital interfaces." }
     ]

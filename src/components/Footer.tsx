@@ -1,8 +1,9 @@
-import { Link } from "react-router-dom";
+import Link from "next/link";
 import { voltagePages, intentPages } from "../data/seoContent";
 
 export default function Footer() {
   const targetUrl = "https://variabledcpowersupply.com";
+  const currentYear = new Date().getFullYear();
 
   return (
     <footer className="bg-white border-t border-brand-border/50 py-20">
@@ -19,7 +20,7 @@ export default function Footer() {
               Specialized distribution and technical support for eTommens industrial variable dc power supply systems.
             </p>
             <p className="text-brand-muted max-w-sm leading-relaxed text-xs mt-4">
-              Official Partner of <a href={targetUrl} target="_blank" rel="nofollow" className="underline hover:text-black">VariableDCPowerSupply.com</a>.
+              Official Partner of <a href={targetUrl} target="_blank" rel="noopener nofollow" className="underline hover:text-black">VariableDCPowerSupply.com</a>.
             </p>
           </div>
           <div>
@@ -27,7 +28,7 @@ export default function Footer() {
             <ul className="space-y-3 text-sm text-brand-muted">
               {voltagePages.slice(0, 4).map(p => (
                 <li key={p.slug}>
-                  <Link to={`/${p.slug}`} className="hover:text-black transition-colors">
+                  <Link href={`/${p.slug}`} className="hover:text-black transition-colors">
                     {p.slug.split('-')[0].toUpperCase()} DC Power Supply
                   </Link>
                 </li>
@@ -39,7 +40,7 @@ export default function Footer() {
             <ul className="space-y-3 text-sm text-brand-muted">
               {intentPages.slice(1, 4).map(p => (
                 <li key={p.slug}>
-                  <Link to={`/${p.slug}`} className="hover:text-black transition-colors">
+                  <Link href={`/${p.slug}`} className="hover:text-black transition-colors">
                     {p.title}
                   </Link>
                 </li>
@@ -48,7 +49,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="pt-8 border-t border-brand-border/50 flex flex-col md:flex-row justify-between items-center gap-6 text-[11px] font-medium text-brand-muted uppercase tracking-widest">
-          <p>&copy; 2026 3ATLANTA INDUSTRIAL. ALL RIGHTS RESERVED.</p>
+          <p>&copy; {currentYear} 3ATLANTA INDUSTRIAL. ALL RIGHTS RESERVED.</p>
           <div className="flex gap-8">
             <a href="#" className="hover:text-black transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-black transition-colors">Terms of Service</a>
