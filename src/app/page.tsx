@@ -101,7 +101,7 @@ export default function HomePage() {
               </a>
               <div className="mt-3 text-sm text-brand-muted text-center">
                 <a href={skuUrl} target="_blank" rel="noopener" className="hover:underline">
-                  Rack Mount Model: etm-3050u-3u
+                  Rack Mount Model: eTM-3050U
                 </a>
               </div>
             </div>
