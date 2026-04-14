@@ -74,7 +74,7 @@ export default function HomePage() {
                 Industrial Programmable DC Power Specialist
               </span>
               <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-10 tracking-tight leading-[1.08]">
-                Variable DC Power Supply <br className="hidden md:block" /> for Mission Critical Testing
+                Industrial Variable DC Power Supply <br className="hidden md:block" /> for Precision Labs
               </h1>
               <p className="text-xl text-brand-muted mb-10 leading-relaxed max-w-2xl mx-auto">
                 3Atlanta provides specialized technical support and distribution for <strong>eTommens</strong> industrial systems.
