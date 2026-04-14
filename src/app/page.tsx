@@ -207,7 +207,7 @@ export default function HomePage() {
                 <p className="text-sm text-zinc-400 mb-8 leading-relaxed">
                   Our engineering team provides full technical consultation for complex power system integration.
                 </p>
-                <a href={targetUrl} target="_blank" rel="noopener nofollow" className="inline-flex items-center text-sm font-bold hover:gap-2 transition-all">
+                <a href={targetUrl} target="_blank" rel="noopener" className="inline-flex items-center text-sm font-bold hover:gap-2 transition-all">
                   Consult an Expert <ArrowRight className="ml-2 w-4 h-4" />
                 </a>
               </div>
@@ -244,7 +244,7 @@ export default function HomePage() {
             <a
               href={targetUrl}
               target="_blank"
-              rel="noopener nofollow"
+              rel="noopener"
               className="btn-primary text-lg px-12 py-4 shadow-xl shadow-zinc-200"
             >
               View Catalog &amp; Pricing
