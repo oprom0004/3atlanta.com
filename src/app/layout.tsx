@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description:
     "Premium industrial-grade variable DC power supplies. High-voltage, high-precision, and programmable solutions for aerospace, semiconductor, and R&D applications.",
   icons: {
-    icon: "/favicon.png",
+    icon: "/favicon.svg",
   },
 };
 
