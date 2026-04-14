@@ -49,6 +49,8 @@ export const metadata: Metadata = {
 
 export default function HomePage() {
   const targetUrl = "https://variabledcpowersupply.com";
+  const skuUrl =
+    "https://variabledcpowersupply.com/etm-3050u-3u-programmable-dc-power-supply-30v-50a-with-4-digits-led-display-output-switch-control-low-noise-intelligent-cooling-fan/";
 
   return (
     <div className="min-h-screen flex flex-col selection:bg-zinc-200">
@@ -73,12 +75,24 @@ export default function HomePage() {
               </div>
             </div>
 
-            <div className="mt-24 w-full max-w-3xl rounded-[32px] overflow-hidden shadow-2xl border border-brand-border/50">
-              <img
-                src="/eTM-3050U.png"
-                alt="eTM-3050U programmable DC power supply"
-                className="w-full h-auto object-cover"
-              />
+            <div className="mt-24 w-full max-w-3xl">
+              <a
+                href={skuUrl}
+                target="_blank"
+                rel="noopener"
+                className="block rounded-[32px] overflow-hidden shadow-2xl border border-brand-border/50 hover:shadow-xl transition-all"
+              >
+                <img
+                  src="/eTM-3050U.png"
+                  alt="eTM-3050U programmable DC power supply"
+                  className="w-full h-auto object-cover"
+                />
+              </a>
+              <div className="mt-3 text-sm text-brand-muted text-center">
+                <a href={skuUrl} target="_blank" rel="noopener" className="hover:underline">
+                  Rack Mount Model: etm-3050u-3u
+                </a>
+              </div>
             </div>
           </div>
         </section>
