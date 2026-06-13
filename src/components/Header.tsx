@@ -1,10 +1,9 @@
- "use client";
+"use client";
 
 import { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
-import { allSEOPages } from "../data/seoContent";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,10 +11,6 @@ export default function Header() {
   const currentPath = pathname || "/";
   
   const isHome = currentPath === "/";
-  const slug = currentPath.startsWith("/") ? currentPath.slice(1) : currentPath;
-  const currentContent = allSEOPages.find((p) => p.slug === slug);
-  const defaultTargetUrl = "https://variabledcpowersupply.com";
-  const targetUrl = currentContent?.externalUrl || defaultTargetUrl;
 
   const navLinks = [
     { name: "Products", href: isHome ? "#products" : "/#products" },
@@ -39,14 +34,12 @@ export default function Header() {
               {link.name}
             </a>
           ))}
-          <a 
-            href={targetUrl} 
-            target="_blank" 
-            rel="noopener nofollow"
+          <Link 
+            href="/where-to-buy" 
             className="px-5 py-2 bg-black text-white rounded-full text-xs font-bold hover:bg-zinc-800 transition-all"
           >
-            Shop Direct
-          </a>
+            Where to Buy
+          </Link>
         </div>
 
         <button className="md:hidden" onClick={() => setIsMenuOpen(!isMenuOpen)}>
@@ -67,14 +60,13 @@ export default function Header() {
               {link.name}
             </a>
           ))}
-          <a 
-            href={targetUrl} 
-            target="_blank" 
-            rel="noopener nofollow"
+          <Link 
+            href="/where-to-buy" 
             className="block w-full py-3 bg-black text-white rounded-full text-center text-xs font-bold"
+            onClick={() => setIsMenuOpen(false)}
           >
-            Shop Direct
-          </a>
+            Where to Buy
+          </Link>
         </div>
       )}
     </nav>

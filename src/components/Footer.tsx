@@ -2,7 +2,6 @@ import Link from "next/link";
 import { voltagePages, intentPages } from "../data/seoContent";
 
 export default function Footer() {
-  const targetUrl = "https://variabledcpowersupply.com";
   const currentYear = new Date().getFullYear();
 
   return (
@@ -20,7 +19,7 @@ export default function Footer() {
               Specialized distribution and technical support for eTommens industrial variable dc power supply systems.
             </p>
             <p className="text-brand-muted max-w-sm leading-relaxed text-xs mt-4">
-              Official Partner of <a href={targetUrl} target="_blank" rel="noopener nofollow" className="underline hover:text-black">VariableDCPowerSupply.com</a>.
+              Authorized Outlet of <Link href="/where-to-buy" className="underline hover:text-black">VariableDCPowerSupply.com</Link>.
             </p>
           </div>
           <div>
